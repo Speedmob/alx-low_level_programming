@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * jack_bauer - prints all possible combinations of two digits
  *
@@ -15,12 +15,12 @@ void jack_bauer(void)
 			{
 				for (c = 48; c < 58; c++)
 				{
-					putchar(i);
-					putchar(a);
-					putchar(58);
-					putchar(b);
-					putchar(c);
-					putchar(10);
+					_putchar(i);
+					_putchar(a);
+					_putchar(58);
+					_putchar(b);
+					_putchar(c);
+					_putchar(10);
 				}
 			}
 		}
