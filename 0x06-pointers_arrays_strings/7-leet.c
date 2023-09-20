@@ -8,7 +8,7 @@
 char *leet(char *n)
 {
 	char a[] = "AaEeOoTtLl";
-	char o[] - "4433007711";
+	char m[] = "4433007711";
 	int o;
 	int e;
 
@@ -18,7 +18,8 @@ char *leet(char *n)
 		{
 			if (n[o] == a[e])
 			{
-				n[o] = o[e];
+				n[o] = m[e];
+				break;
 			}
 		}
 	}
