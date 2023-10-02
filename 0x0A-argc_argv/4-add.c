@@ -6,7 +6,7 @@
  * @argc: num of args passed
  * @argv: pointer to args passed
  *
- * Return: Always 0 (success)
+ * Return: 0 (success), 1 (Error)
 */
 int main(int argc, char *argv[])
 {
