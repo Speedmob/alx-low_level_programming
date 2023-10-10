@@ -16,7 +16,13 @@ struct dog
 	char *owner;
 };
 
+/**
+ * dog_t - other name for struct dog
+*/
+typedef struct dog dog_t;
+
 #define _ISNULL(x)(x == NULL ? "(nil)" : x)
+
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
