@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_dnodeint - adds a node at the end of D_LL
+ * add_dnodeint - adds a node at the beginning of D_LL
  * @head: D_LL
  * @n: int to add
  *
